@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a036ae58ae0f49abafbc36a2dde6cbb5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a036ae58ae0f49abafbc36a2dde6cbb5" ></div>
+        
+</body>
+<script>    
+    
+            var map_a036ae58ae0f49abafbc36a2dde6cbb5 = L.map(
+                "map_a036ae58ae0f49abafbc36a2dde6cbb5",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cd0e1874aeac471eb810b0b300498adb = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 2, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+            var circle_b1e9b9e6a63146ae905629f5643346b0 = L.circle(
+                [31.151725199999998, 112.87832220000001],
+                {"bubblingMouseEvents": true, "color": "#998ec3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#998ec3", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500000.0, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_d50f3681f07545fd982de1198c9b8edd = L.popup({"maxWidth": 300});
+
+        
+            var html_3e4460364e6d4770b6e769669c42d793 = $(`<div id="html_3e4460364e6d4770b6e769669c42d793" style="width: 100.0%; height: 100.0%;">Hubei, Mainland China.<br>Cases confirmed: 9074.<br> Deaths: 294<br>Recovered: 215</div>`)[0];
+            popup_d50f3681f07545fd982de1198c9b8edd.setContent(html_3e4460364e6d4770b6e769669c42d793);
+        
+
+        circle_b1e9b9e6a63146ae905629f5643346b0.bindPopup(popup_d50f3681f07545fd982de1198c9b8edd)
+        ;
+
+        
+    
+    
+            var circle_784c8a1a70504756a22e55fa5620f1c3 = L.circle(
+                [29.000000099999998, 119.9999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 134949.52076264133, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_691048fadd7c4243bad5b68c835f6ad0 = L.popup({"maxWidth": 300});
+
+        
+            var html_566c560c65e548ef9c033fd7e4f388e0 = $(`<div id="html_566c560c65e548ef9c033fd7e4f388e0" style="width: 100.0%; height: 100.0%;">Zhejiang, Mainland China.<br>Cases confirmed: 661.<br> Deaths: 0<br>Recovered: 23</div>`)[0];
+            popup_691048fadd7c4243bad5b68c835f6ad0.setContent(html_566c560c65e548ef9c033fd7e4f388e0);
+        
+
+        circle_784c8a1a70504756a22e55fa5620f1c3.bindPopup(popup_691048fadd7c4243bad5b68c835f6ad0)
+        ;
+
+        
+    
+    
+            var circle_9c8f2cbf41724950b515d3937b16be9c = L.circle(
+                [23.135769399999997, 113.19826880000001],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 128999.81461629365, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_0d429ba360634ae6b4ace150ff41ccab = L.popup({"maxWidth": 300});
+
+        
+            var html_6d4909d21cdb4eb0bda80f9a78374775 = $(`<div id="html_6d4909d21cdb4eb0bda80f9a78374775" style="width: 100.0%; height: 100.0%;">Guangdong, Mainland China.<br>Cases confirmed: 604.<br> Deaths: 0<br>Recovered: 14</div>`)[0];
+            popup_0d429ba360634ae6b4ace150ff41ccab.setContent(html_6d4909d21cdb4eb0bda80f9a78374775);
+        
+
+        circle_9c8f2cbf41724950b515d3937b16be9c.bindPopup(popup_0d429ba360634ae6b4ace150ff41ccab)
+        ;
+
+        
+    
+    
+            var circle_90bcc790ffcf4fafbb08f2b29d9f9fa2 = L.circle(
+                [34.0000001, 113.9999999],
+                {"bubblingMouseEvents": true, "color": "#f2a544", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f2a544", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 116545.11547435238, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_8539179f32364226b307bf074f4b960e = L.popup({"maxWidth": 300});
+
+        
+            var html_b98cca02311347ff98c66ac89d850e84 = $(`<div id="html_b98cca02311347ff98c66ac89d850e84" style="width: 100.0%; height: 100.0%;">Henan, Mainland China.<br>Cases confirmed: 493.<br> Deaths: 2<br>Recovered: 4</div>`)[0];
+            popup_8539179f32364226b307bf074f4b960e.setContent(html_b98cca02311347ff98c66ac89d850e84);
+        
+
+        circle_90bcc790ffcf4fafbb08f2b29d9f9fa2.bindPopup(popup_8539179f32364226b307bf074f4b960e)
+        ;
+
+        
+    
+    
+            var circle_75d51bdb85b148abb5633d668e296236 = L.circle(
+                [27.6662087, 111.74870630000001],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 112943.46630700458, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_bb966d809ad04162a61e453d88b38f71 = L.popup({"maxWidth": 300});
+
+        
+            var html_88725d874d734d6f84d2d8a0cd4597fb = $(`<div id="html_88725d874d734d6f84d2d8a0cd4597fb" style="width: 100.0%; height: 100.0%;">Hunan, Mainland China.<br>Cases confirmed: 463.<br> Deaths: 0<br>Recovered: 8</div>`)[0];
+            popup_bb966d809ad04162a61e453d88b38f71.setContent(html_88725d874d734d6f84d2d8a0cd4597fb);
+        
+
+        circle_75d51bdb85b148abb5633d668e296236.bindPopup(popup_bb966d809ad04162a61e453d88b38f71)
+        ;
+
+        
+    
+    
+            var circle_a2651532e3d34341b5520ef60239a5c3 = L.circle(
+                [32.0, 117.0],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 96785.45039177127, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_0409c578b43f4936bcd327c8bfc3a3a0 = L.popup({"maxWidth": 300});
+
+        
+            var html_ef4e6ea765bf48c6b9895bc867f88e3b = $(`<div id="html_ef4e6ea765bf48c6b9895bc867f88e3b" style="width: 100.0%; height: 100.0%;">Anhui, Mainland China.<br>Cases confirmed: 340.<br> Deaths: 0<br>Recovered: 5</div>`)[0];
+            popup_0409c578b43f4936bcd327c8bfc3a3a0.setContent(html_ef4e6ea765bf48c6b9895bc867f88e3b);
+        
+
+        circle_a2651532e3d34341b5520ef60239a5c3.bindPopup(popup_0409c578b43f4936bcd327c8bfc3a3a0)
+        ;
+
+        
+    
+    
+            var circle_5d1af8224fbe4f6285de36019bab9703 = L.circle(
+                [28.0, 116.0],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 95783.94797837475, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_ade3d9f835aa43468f1959a878ae872c = L.popup({"maxWidth": 300});
+
+        
+            var html_81775eb7df2f408983c9d8dd054ce103 = $(`<div id="html_81775eb7df2f408983c9d8dd054ce103" style="width: 100.0%; height: 100.0%;">Jiangxi, Mainland China.<br>Cases confirmed: 333.<br> Deaths: 0<br>Recovered: 10</div>`)[0];
+            popup_ade3d9f835aa43468f1959a878ae872c.setContent(html_81775eb7df2f408983c9d8dd054ce103);
+        
+
+        circle_5d1af8224fbe4f6285de36019bab9703.bindPopup(popup_ade3d9f835aa43468f1959a878ae872c)
+        ;
+
+        
+    
+    
+            var circle_d5ab32bd43a94ec882a7e687eb356b80 = L.circle(
+                [29.5585712, 106.5492822],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 84961.32221703907, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_f7434e26a1a84360990db60fcb241f33 = L.popup({"maxWidth": 300});
+
+        
+            var html_7fc5a22c7e2142c18da75e9c42a97eb0 = $(`<div id="html_7fc5a22c7e2142c18da75e9c42a97eb0" style="width: 100.0%; height: 100.0%;">Chongqing, Mainland China.<br>Cases confirmed: 262.<br> Deaths: 1<br>Recovered: 3</div>`)[0];
+            popup_f7434e26a1a84360990db60fcb241f33.setContent(html_7fc5a22c7e2142c18da75e9c42a97eb0);
+        
+
+        circle_d5ab32bd43a94ec882a7e687eb356b80.bindPopup(popup_f7434e26a1a84360990db60fcb241f33)
+        ;
+
+        
+    
+    
+            var circle_054ce2daed4d47ebb2843c2307931eb2 = L.circle(
+                [33.0000001, 119.9999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80635.56222067306, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_fb58bc84adaf4e98951f65525c09d2fc = L.popup({"maxWidth": 300});
+
+        
+            var html_51f0d3ae673e4a3ba79e8a70885c3be5 = $(`<div id="html_51f0d3ae673e4a3ba79e8a70885c3be5" style="width: 100.0%; height: 100.0%;">Jiangsu, Mainland China.<br>Cases confirmed: 236.<br> Deaths: 0<br>Recovered: 6</div>`)[0];
+            popup_fb58bc84adaf4e98951f65525c09d2fc.setContent(html_51f0d3ae673e4a3ba79e8a70885c3be5);
+        
+
+        circle_054ce2daed4d47ebb2843c2307931eb2.bindPopup(popup_fb58bc84adaf4e98951f65525c09d2fc)
+        ;
+
+        
+    
+    
+            var circle_76b651b229a0471380d05a4e633930be = L.circle(
+                [30.500000099999998, 102.4999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 79776.79905876517, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_b208fde45c4d4ae3b2161a413801d938 = L.popup({"maxWidth": 300});
+
+        
+            var html_ae9f0f6d70244e8d9c8d369b350d4207 = $(`<div id="html_ae9f0f6d70244e8d9c8d369b350d4207" style="width: 100.0%; height: 100.0%;">Sichuan, Mainland China.<br>Cases confirmed: 231.<br> Deaths: 1<br>Recovered: 3</div>`)[0];
+            popup_b208fde45c4d4ae3b2161a413801d938.setContent(html_ae9f0f6d70244e8d9c8d369b350d4207);
+        
+
+        circle_76b651b229a0471380d05a4e633930be.bindPopup(popup_b208fde45c4d4ae3b2161a413801d938)
+        ;
+
+        
+    
+    
+            var circle_1eb50b2df7d14a02bf9e521b1390ccd7 = L.circle(
+                [36.0000001, 118.9999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 78733.92023876918, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_6c93a92c58164a9dba1c4f68cc934588 = L.popup({"maxWidth": 300});
+
+        
+            var html_874da083cbfd469ebac0bb5ec3761b51 = $(`<div id="html_874da083cbfd469ebac0bb5ec3761b51" style="width: 100.0%; height: 100.0%;">Shandong, Mainland China.<br>Cases confirmed: 225.<br> Deaths: 0<br>Recovered: 5</div>`)[0];
+            popup_6c93a92c58164a9dba1c4f68cc934588.setContent(html_874da083cbfd469ebac0bb5ec3761b51);
+        
+
+        circle_1eb50b2df7d14a02bf9e521b1390ccd7.bindPopup(popup_6c93a92c58164a9dba1c4f68cc934588)
+        ;
+
+        
+    
+    
+            var circle_7d075a4369ed4a748a587dbe5fff4b75 = L.circle(
+                [39.906217, 116.3912757],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 71006.18207508948, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_c362abcf107b4312bc961c00830d2add = L.popup({"maxWidth": 300});
+
+        
+            var html_70b0467455bd4479a4755a252564b2d6 = $(`<div id="html_70b0467455bd4479a4755a252564b2d6" style="width: 100.0%; height: 100.0%;">Beijing, Mainland China.<br>Cases confirmed: 183.<br> Deaths: 1<br>Recovered: 9</div>`)[0];
+            popup_c362abcf107b4312bc961c00830d2add.setContent(html_70b0467455bd4479a4755a252564b2d6);
+        
+
+        circle_7d075a4369ed4a748a587dbe5fff4b75.bindPopup(popup_c362abcf107b4312bc961c00830d2add)
+        ;
+
+        
+    
+    
+            var circle_61fc9b67568d4e8fbb8e03506603a4b8 = L.circle(
+                [31.225298499999997, 121.4890497],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 69832.44533154363, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_867c1d41405a4fbd9b4fbb2b184a6065 = L.popup({"maxWidth": 300});
+
+        
+            var html_2af412884bc9412fb442bb45c560e5c7 = $(`<div id="html_2af412884bc9412fb442bb45c560e5c7" style="width: 100.0%; height: 100.0%;">Shanghai, Mainland China.<br>Cases confirmed: 177.<br> Deaths: 1<br>Recovered: 10</div>`)[0];
+            popup_867c1d41405a4fbd9b4fbb2b184a6065.setContent(html_2af412884bc9412fb442bb45c560e5c7);
+        
+
+        circle_61fc9b67568d4e8fbb8e03506603a4b8.bindPopup(popup_867c1d41405a4fbd9b4fbb2b184a6065)
+        ;
+
+        
+    
+    
+            var circle_b03479c855a74bdfbdccca1f9746c147 = L.circle(
+                [26.5450001, 117.84277800000001],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 66186.46391287148, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_80e61d348e074d60962c8378537da9cd = L.popup({"maxWidth": 300});
+
+        
+            var html_975de3d809714405afb3f11ab046fc1d = $(`<div id="html_975de3d809714405afb3f11ab046fc1d" style="width: 100.0%; height: 100.0%;">Fujian, Mainland China.<br>Cases confirmed: 159.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_80e61d348e074d60962c8378537da9cd.setContent(html_975de3d809714405afb3f11ab046fc1d);
+        
+
+        circle_b03479c855a74bdfbdccca1f9746c147.bindPopup(popup_80e61d348e074d60962c8378537da9cd)
+        ;
+
+        
+    
+    
+            var circle_2daf6c9a72a141df8ef9496297dd7997 = L.circle(
+                [36.0, 109.0],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 56532.684853007304, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_8028dd9db47f4020a781cdfc68a72dca = L.popup({"maxWidth": 300});
+
+        
+            var html_79352e8b66c44c859fc2602472068744 = $(`<div id="html_79352e8b66c44c859fc2602472068744" style="width: 100.0%; height: 100.0%;">Shaanxi, Mainland China.<br>Cases confirmed: 116.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_8028dd9db47f4020a781cdfc68a72dca.setContent(html_79352e8b66c44c859fc2602472068744);
+        
+
+        circle_2daf6c9a72a141df8ef9496297dd7997.bindPopup(popup_8028dd9db47f4020a781cdfc68a72dca)
+        ;
+
+        
+    
+    
+            var circle_e47c254634274674a80565a5cec3919c = L.circle(
+                [24.0, 109.0],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 55300.88814935977, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_d8bcaabef1c2480bb76bad6d6d6a3d93 = L.popup({"maxWidth": 300});
+
+        
+            var html_7b190f4ff79243dea87db688f93b753f = $(`<div id="html_7b190f4ff79243dea87db688f93b753f" style="width: 100.0%; height: 100.0%;">Guangxi, Mainland China.<br>Cases confirmed: 111.<br> Deaths: 0<br>Recovered: 2</div>`)[0];
+            popup_d8bcaabef1c2480bb76bad6d6d6a3d93.setContent(html_7b190f4ff79243dea87db688f93b753f);
+        
+
+        circle_e47c254634274674a80565a5cec3919c.bindPopup(popup_d8bcaabef1c2480bb76bad6d6d6a3d93)
+        ;
+
+        
+    
+    
+            var circle_831292226e96448ea6dbfcb5aa405d04 = L.circle(
+                [39.0000001, 116.0],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 53528.77275721892, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_5f68e2481996474fbf519a0f9f850a57 = L.popup({"maxWidth": 300});
+
+        
+            var html_5c68c1b1712e4581a76edf02a521628a = $(`<div id="html_5c68c1b1712e4581a76edf02a521628a" style="width: 100.0%; height: 100.0%;">Hebei, Mainland China.<br>Cases confirmed: 104.<br> Deaths: 1<br>Recovered: 3</div>`)[0];
+            popup_5f68e2481996474fbf519a0f9f850a57.setContent(html_5c68c1b1712e4581a76edf02a521628a);
+        
+
+        circle_831292226e96448ea6dbfcb5aa405d04.bindPopup(popup_5f68e2481996474fbf519a0f9f850a57)
+        ;
+
+        
+    
+    
+            var circle_30f2ebf6e33f466baf157c3f3301e4ba = L.circle(
+                [48.000004700000005, 127.99999199999999],
+                {"bubblingMouseEvents": true, "color": "#f2a544", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f2a544", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 51160.22190185836, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_4c18aa51f3ff448e907ea6e48633a04a = L.popup({"maxWidth": 300});
+
+        
+            var html_701dc1f1b71442ee9fe31433ef10583d = $(`<div id="html_701dc1f1b71442ee9fe31433ef10583d" style="width: 100.0%; height: 100.0%;">Heilongjiang, Mainland China.<br>Cases confirmed: 95.<br> Deaths: 2<br>Recovered: 2</div>`)[0];
+            popup_4c18aa51f3ff448e907ea6e48633a04a.setContent(html_701dc1f1b71442ee9fe31433ef10583d);
+        
+
+        circle_30f2ebf6e33f466baf157c3f3301e4ba.bindPopup(popup_4c18aa51f3ff448e907ea6e48633a04a)
+        ;
+
+        
+    
+    
+            var circle_438e5b3fde8a4a72ae276496fb2dde68 = L.circle(
+                [25.0, 102.0],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50618.82865510433, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_7d39df0803274059b602eb06f1543b7c = L.popup({"maxWidth": 300});
+
+        
+            var html_6744cd8006ab48598b822b9d82f2f9d0 = $(`<div id="html_6744cd8006ab48598b822b9d82f2f9d0" style="width: 100.0%; height: 100.0%;">Yunnan, Mainland China.<br>Cases confirmed: 93.<br> Deaths: 0<br>Recovered: 2</div>`)[0];
+            popup_7d39df0803274059b602eb06f1543b7c.setContent(html_6744cd8006ab48598b822b9d82f2f9d0);
+        
+
+        circle_438e5b3fde8a4a72ae276496fb2dde68.bindPopup(popup_7d39df0803274059b602eb06f1543b7c)
+        ;
+
+        
+    
+    
+            var circle_7e59e12e26f742f19100d1cfd7beb166 = L.circle(
+                [40.9739116, 122.3263915],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 41991.42412734356, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_a6519a4d6b6f4d89b82c180af23378cd = L.popup({"maxWidth": 300});
+
+        
+            var html_0d2e074eef614fbc91c449177520d174 = $(`<div id="html_0d2e074eef614fbc91c449177520d174" style="width: 100.0%; height: 100.0%;">Liaoning, Mainland China.<br>Cases confirmed: 64.<br> Deaths: 0<br>Recovered: 1</div>`)[0];
+            popup_a6519a4d6b6f4d89b82c180af23378cd.setContent(html_0d2e074eef614fbc91c449177520d174);
+        
+
+        circle_7e59e12e26f742f19100d1cfd7beb166.bindPopup(popup_a6519a4d6b6f4d89b82c180af23378cd)
+        ;
+
+        
+    
+    
+            var circle_855078c7a16b4b2ea200ddf3b69df23f = L.circle(
+                [19.2000001, 109.5999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 41662.07453939569, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_8fa459974aa741b0a061f83d16b22bf4 = L.popup({"maxWidth": 300});
+
+        
+            var html_7ca5c3344ac142ef806d28ae193baa08 = $(`<div id="html_7ca5c3344ac142ef806d28ae193baa08" style="width: 100.0%; height: 100.0%;">Hainan, Mainland China.<br>Cases confirmed: 63.<br> Deaths: 1<br>Recovered: 1</div>`)[0];
+            popup_8fa459974aa741b0a061f83d16b22bf4.setContent(html_7ca5c3344ac142ef806d28ae193baa08);
+        
+
+        circle_855078c7a16b4b2ea200ddf3b69df23f.bindPopup(popup_8fa459974aa741b0a061f83d16b22bf4)
+        ;
+
+        
+    
+    
+            var circle_2b58d04fd2f54a189e79eef641d67945 = L.circle(
+                [37.0, 112.0],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 39279.38056680813, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_75b35bc3fd214587876fc076831a772e = L.popup({"maxWidth": 300});
+
+        
+            var html_6ddfaa91295449e08e6b59a8d0385610 = $(`<div id="html_6ddfaa91295449e08e6b59a8d0385610" style="width: 100.0%; height: 100.0%;">Shanxi, Mainland China.<br>Cases confirmed: 56.<br> Deaths: 0<br>Recovered: 1</div>`)[0];
+            popup_75b35bc3fd214587876fc076831a772e.setContent(html_6ddfaa91295449e08e6b59a8d0385610);
+        
+
+        circle_2b58d04fd2f54a189e79eef641d67945.bindPopup(popup_75b35bc3fd214587876fc076831a772e)
+        ;
+
+        
+    
+    
+            var circle_c926a077f2ff422d97b5f85550851a5d = L.circle(
+                [39.1235635, 117.1980785],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35210.87955778687, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_3856d4b54de349df97cd9cf518eb2836 = L.popup({"maxWidth": 300});
+
+        
+            var html_8d7bb685f28e4123a293b301a52737b7 = $(`<div id="html_8d7bb685f28e4123a293b301a52737b7" style="width: 100.0%; height: 100.0%;">Tianjin, Mainland China.<br>Cases confirmed: 45.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_3856d4b54de349df97cd9cf518eb2836.setContent(html_8d7bb685f28e4123a293b301a52737b7);
+        
+
+        circle_c926a077f2ff422d97b5f85550851a5d.bindPopup(popup_3856d4b54de349df97cd9cf518eb2836)
+        ;
+
+        
+    
+    
+            var circle_0ccadef84ea84f2099098fd6b98662cc = L.circle(
+                [38.0000001, 101.9999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 33197.13560913851, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_826abc131c7b4a36b7c711d58a380f31 = L.popup({"maxWidth": 300});
+
+        
+            var html_39c8d47045a947629f7256b9de20de00 = $(`<div id="html_39c8d47045a947629f7256b9de20de00" style="width: 100.0%; height: 100.0%;">Gansu, Mainland China.<br>Cases confirmed: 40.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_826abc131c7b4a36b7c711d58a380f31.setContent(html_39c8d47045a947629f7256b9de20de00);
+        
+
+        circle_0ccadef84ea84f2099098fd6b98662cc.bindPopup(popup_826abc131c7b4a36b7c711d58a380f31)
+        ;
+
+        
+    
+    
+            var circle_277f8d2af65d4b2eaf0fea6fbb0085eb = L.circle(
+                [27.0, 107.0],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 32356.565361900743, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_3a3f0b07a8824f83842807b4e86a6746 = L.popup({"maxWidth": 300});
+
+        
+            var html_5c0c0a2670d34b2abe8fcda466af238c = $(`<div id="html_5c0c0a2670d34b2abe8fcda466af238c" style="width: 100.0%; height: 100.0%;">Guizhou, Mainland China.<br>Cases confirmed: 38.<br> Deaths: 0<br>Recovered: 2</div>`)[0];
+            popup_3a3f0b07a8824f83842807b4e86a6746.setContent(html_5c0c0a2670d34b2abe8fcda466af238c);
+        
+
+        circle_277f8d2af65d4b2eaf0fea6fbb0085eb.bindPopup(popup_3a3f0b07a8824f83842807b4e86a6746)
+        ;
+
+        
+    
+    
+            var circle_d42187a4c2ee40d2a161e19d76395d12 = L.circle(
+                [37.3095528, 105.9608553],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27774.71635959713, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_f9a794df0d09470daa593cc36276e11f = L.popup({"maxWidth": 300});
+
+        
+            var html_5926c2d342b64107a3433e67b7fdb822 = $(`<div id="html_5926c2d342b64107a3433e67b7fdb822" style="width: 100.0%; height: 100.0%;">Ningxia, Mainland China.<br>Cases confirmed: 28.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_f9a794df0d09470daa593cc36276e11f.setContent(html_5926c2d342b64107a3433e67b7fdb822);
+        
+
+        circle_d42187a4c2ee40d2a161e19d76395d12.bindPopup(popup_f9a794df0d09470daa593cc36276e11f)
+        ;
+
+        
+    
+    
+            var circle_de02840e2ef34467af4b270c0ac97e26 = L.circle(
+                [43.2443242, 114.32516640000001],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27274.230026524743, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_90da782bd8854f869607afe97abfaa3e = L.popup({"maxWidth": 300});
+
+        
+            var html_0f9a18f06dd545baaefef0cea5b31432 = $(`<div id="html_0f9a18f06dd545baaefef0cea5b31432" style="width: 100.0%; height: 100.0%;">Inner Mongolia, Mainland China.<br>Cases confirmed: 27.<br> Deaths: 0<br>Recovered: 1</div>`)[0];
+            popup_90da782bd8854f869607afe97abfaa3e.setContent(html_0f9a18f06dd545baaefef0cea5b31432);
+        
+
+        circle_de02840e2ef34467af4b270c0ac97e26.bindPopup(popup_90da782bd8854f869607afe97abfaa3e)
+        ;
+
+        
+    
+    
+            var circle_a1695bcbb1fd4faaa3a67459bcb1ce63 = L.circle(
+                [42.9995032, 125.9816054],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25172.974442338567, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_6329342c73e84502b75d64cd47795515 = L.popup({"maxWidth": 300});
+
+        
+            var html_1d351adde89145eaa8ec426797296998 = $(`<div id="html_1d351adde89145eaa8ec426797296998" style="width: 100.0%; height: 100.0%;">Jilin, Mainland China.<br>Cases confirmed: 23.<br> Deaths: 0<br>Recovered: 1</div>`)[0];
+            popup_6329342c73e84502b75d64cd47795515.setContent(html_1d351adde89145eaa8ec426797296998);
+        
+
+        circle_a1695bcbb1fd4faaa3a67459bcb1ce63.bindPopup(popup_6329342c73e84502b75d64cd47795515)
+        ;
+
+        
+    
+    
+            var circle_98c2a7c70d3844e4b84c850e042aad71 = L.circle(
+                [41.7574769, 87.1673842],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24053.609950318354, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_331053d6ff5c429bb74e12694be61df7 = L.popup({"maxWidth": 300});
+
+        
+            var html_c5f7644098dc4c1eb83962016bf66817 = $(`<div id="html_c5f7644098dc4c1eb83962016bf66817" style="width: 100.0%; height: 100.0%;">Xinjiang, Mainland China.<br>Cases confirmed: 21.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_331053d6ff5c429bb74e12694be61df7.setContent(html_c5f7644098dc4c1eb83962016bf66817);
+        
+
+        circle_98c2a7c70d3844e4b84c850e042aad71.bindPopup(popup_331053d6ff5c429bb74e12694be61df7)
+        ;
+
+        
+    
+    
+            var circle_b1b06264ee314a97bce050f239c5dff4 = L.circle(
+                [36.5748441, 139.2394179],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23473.91970519125, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_1f2ecd2c2f664e92b4c852d4d35c1a66 = L.popup({"maxWidth": 300});
+
+        
+            var html_624bac5a6d8f4d2bacce030a966a9adb = $(`<div id="html_624bac5a6d8f4d2bacce030a966a9adb" style="width: 100.0%; height: 100.0%;">Japan.<br>Cases confirmed: 20<br>Deaths: 0<br>Recovered: 1</div>`)[0];
+            popup_1f2ecd2c2f664e92b4c852d4d35c1a66.setContent(html_624bac5a6d8f4d2bacce030a966a9adb);
+        
+
+        circle_b1b06264ee314a97bce050f239c5dff4.bindPopup(popup_1f2ecd2c2f664e92b4c852d4d35c1a66)
+        ;
+
+        
+    
+    
+            var circle_8c24cc2de4914635a436ba599e393669 = L.circle(
+                [14.8971921, 100.83273],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22879.546783305774, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_a90b7eac04514866b470ac14283c0b80 = L.popup({"maxWidth": 300});
+
+        
+            var html_572193b0f9b341cc9496aee65eb867ae = $(`<div id="html_572193b0f9b341cc9496aee65eb867ae" style="width: 100.0%; height: 100.0%;">Thailand.<br>Cases confirmed: 19<br>Deaths: 0<br>Recovered: 5</div>`)[0];
+            popup_a90b7eac04514866b470ac14283c0b80.setContent(html_572193b0f9b341cc9496aee65eb867ae);
+        
+
+        circle_8c24cc2de4914635a436ba599e393669.bindPopup(popup_a90b7eac04514866b470ac14283c0b80)
+        ;
+
+        
+    
+    
+            var circle_bd25f94327fb41abb11ba25249548a88 = L.circle(
+                [1.340863, 103.8303918],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22269.315564093773, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_35ed9d554f8c413f88acf4433173cc8a = L.popup({"maxWidth": 300});
+
+        
+            var html_de359b8f48ef4bfda513c70724c00d2d = $(`<div id="html_de359b8f48ef4bfda513c70724c00d2d" style="width: 100.0%; height: 100.0%;">Singapore.<br>Cases confirmed: 18<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_35ed9d554f8c413f88acf4433173cc8a.setContent(html_de359b8f48ef4bfda513c70724c00d2d);
+        
+
+        circle_bd25f94327fb41abb11ba25249548a88.bindPopup(popup_35ed9d554f8c413f88acf4433173cc8a)
+        ;
+
+        
+    
+    
+            var circle_76a6aef606634708bf379a1005812a2f = L.circle(
+                [36.5581914, 127.9408564],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20329.01079109174, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_85f156668bf74458921def43631864a4 = L.popup({"maxWidth": 300});
+
+        
+            var html_7ea5e7466f124767a6cc493c26b65f43 = $(`<div id="html_7ea5e7466f124767a6cc493c26b65f43" style="width: 100.0%; height: 100.0%;">South Korea.<br>Cases confirmed: 15<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_85f156668bf74458921def43631864a4.setContent(html_7ea5e7466f124767a6cc493c26b65f43);
+        
+
+        circle_76a6aef606634708bf379a1005812a2f.bindPopup(popup_85f156668bf74458921def43631864a4)
+        ;
+
+        
+    
+    
+            var circle_be369765f5114bccaa9c0053dad4441f = L.circle(
+                [22.2793278, 114.16281310000001],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19639.690283404067, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_29c69be3640d4ef985b54dbb1523ed9a = L.popup({"maxWidth": 300});
+
+        
+            var html_38709be8e9c64d268a110fa45dd58e94 = $(`<div id="html_38709be8e9c64d268a110fa45dd58e94" style="width: 100.0%; height: 100.0%;">Hong Kong, Hong Kong.<br>Cases confirmed: 14.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_29c69be3640d4ef985b54dbb1523ed9a.setContent(html_38709be8e9c64d268a110fa45dd58e94);
+        
+
+        circle_be369765f5114bccaa9c0053dad4441f.bindPopup(popup_29c69be3640d4ef985b54dbb1523ed9a)
+        ;
+
+        
+    
+    
+            var circle_9f8633fb34ab408eb7579ea985ba10b1 = L.circle(
+                [23.973937399999997, 120.9820179],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16598.567804569255, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_98ba154521fd4498a88b42665fc4479e = L.popup({"maxWidth": 300});
+
+        
+            var html_8917af7a57d047379be1881b8bcdbf35 = $(`<div id="html_8917af7a57d047379be1881b8bcdbf35" style="width: 100.0%; height: 100.0%;">Taiwan, Taiwan.<br>Cases confirmed: 10.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_98ba154521fd4498a88b42665fc4479e.setContent(html_8917af7a57d047379be1881b8bcdbf35);
+        
+
+        circle_9f8633fb34ab408eb7579ea985ba10b1.bindPopup(popup_98ba154521fd4498a88b42665fc4479e)
+        ;
+
+        
+    
+    
+            var circle_72338a75acde4f8da70be86f9c58670f = L.circle(
+                [35.40709520000001, 95.95211570000001],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15746.784047753836, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_91bb77c510c743f082d0ef23579abded = L.popup({"maxWidth": 300});
+
+        
+            var html_a7680ec554454909b7910c3e2a141e16 = $(`<div id="html_a7680ec554454909b7910c3e2a141e16" style="width: 100.0%; height: 100.0%;">Qinghai, Mainland China.<br>Cases confirmed: 9.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_91bb77c510c743f082d0ef23579abded.setContent(html_a7680ec554454909b7910c3e2a141e16);
+        
+
+        circle_72338a75acde4f8da70be86f9c58670f.bindPopup(popup_91bb77c510c743f082d0ef23579abded)
+        ;
+
+        
+    
+    
+            var circle_649c05bbaa0249d3a6d08fac5b39c09f = L.circle(
+                [51.0834196, 10.4234469],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14846.210376062518, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_d44aeef3cb224ec6a4eb2dffa95faf19 = L.popup({"maxWidth": 300});
+
+        
+            var html_41b14c8bced74072ae811038cf95b426 = $(`<div id="html_41b14c8bced74072ae811038cf95b426" style="width: 100.0%; height: 100.0%;">Germany.<br>Cases confirmed: 8<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_d44aeef3cb224ec6a4eb2dffa95faf19.setContent(html_41b14c8bced74072ae811038cf95b426);
+        
+
+        circle_649c05bbaa0249d3a6d08fac5b39c09f.bindPopup(popup_d44aeef3cb224ec6a4eb2dffa95faf19)
+        ;
+
+        
+    
+    
+            var circle_56f73bc288444f7bb65140e304f0658c = L.circle(
+                [4.5693754, 102.2656823],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14846.210376062518, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_3927983e76044c7c8047b06d9c47d8cf = L.popup({"maxWidth": 300});
+
+        
+            var html_5b6ebe2d5ec84907947eef95ee8451b3 = $(`<div id="html_5b6ebe2d5ec84907947eef95ee8451b3" style="width: 100.0%; height: 100.0%;">Malaysia.<br>Cases confirmed: 8<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_3927983e76044c7c8047b06d9c47d8cf.setContent(html_5b6ebe2d5ec84907947eef95ee8451b3);
+        
+
+        circle_56f73bc288444f7bb65140e304f0658c.bindPopup(popup_3927983e76044c7c8047b06d9c47d8cf)
+        ;
+
+        
+    
+    
+            var circle_b11f22b2281b4e70b276228d46a42f21 = L.circle(
+                [-5.1133665, -36.634995700000005],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13887.358179798564, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_fecc76cf5b0c4f8b8b67d7b75612dfc9 = L.popup({"maxWidth": 300});
+
+        
+            var html_a1ee59928366430fb48d44c859ed950e = $(`<div id="html_a1ee59928366430fb48d44c859ed950e" style="width: 100.0%; height: 100.0%;">Macau, Macau.<br>Cases confirmed: 7.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_fecc76cf5b0c4f8b8b67d7b75612dfc9.setContent(html_a1ee59928366430fb48d44c859ed950e);
+        
+
+        circle_b11f22b2281b4e70b276228d46a42f21.bindPopup(popup_fecc76cf5b0c4f8b8b67d7b75612dfc9)
+        ;
+
+        
+    
+    
+            var circle_b6d135787c954c7a87106a6833730c74 = L.circle(
+                [46.603353999999996, 1.8883334999999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12857.195335598262, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_2b6891ff90844be6823cd0cc12ac0964 = L.popup({"maxWidth": 300});
+
+        
+            var html_461d1cccb0374bd9b5cc7648efe97cb1 = $(`<div id="html_461d1cccb0374bd9b5cc7648efe97cb1" style="width: 100.0%; height: 100.0%;">France.<br>Cases confirmed: 6<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_2b6891ff90844be6823cd0cc12ac0964.setContent(html_461d1cccb0374bd9b5cc7648efe97cb1);
+        
+
+        circle_b6d135787c954c7a87106a6833730c74.bindPopup(popup_2b6891ff90844be6823cd0cc12ac0964)
+        ;
+
+        
+    
+    
+            var circle_ed6af82c733f4e039d9e6f4483ca34c5 = L.circle(
+                [13.2904027, 108.42651129999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12857.195335598262, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_951808aace454a6a8560ad6b14940de3 = L.popup({"maxWidth": 300});
+
+        
+            var html_f3ba225d21614381b8e188f42681f788 = $(`<div id="html_f3ba225d21614381b8e188f42681f788" style="width: 100.0%; height: 100.0%;">Vietnam.<br>Cases confirmed: 6<br>Deaths: 0<br>Recovered: 1</div>`)[0];
+            popup_951808aace454a6a8560ad6b14940de3.setContent(html_f3ba225d21614381b8e188f42681f788);
+        
+
+        circle_ed6af82c733f4e039d9e6f4483ca34c5.bindPopup(popup_951808aace454a6a8560ad6b14940de3)
+        ;
+
+        
+    
+    
+            var circle_748566dd61564f558ca40241a95332a9 = L.circle(
+                [-31.875983500000004, 147.2869493],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10497.85603183589, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_ec3d092087d142f18fa1be145cf1b2cb = L.popup({"maxWidth": 300});
+
+        
+            var html_3802c95c716847e2866fe482bece7bb7 = $(`<div id="html_3802c95c716847e2866fe482bece7bb7" style="width: 100.0%; height: 100.0%;">New South Wales, Australia.<br>Cases confirmed: 4.<br> Deaths: 0<br>Recovered: 2</div>`)[0];
+            popup_ec3d092087d142f18fa1be145cf1b2cb.setContent(html_3802c95c716847e2866fe482bece7bb7);
+        
+
+        circle_748566dd61564f558ca40241a95332a9.bindPopup(popup_ec3d092087d142f18fa1be145cf1b2cb)
+        ;
+
+        
+    
+    
+            var circle_a2296d5ceff64827a437277e7e4bfc97 = L.circle(
+                [-36.5986096, 144.6780052],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10497.85603183589, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_6c29305cb19144c58250f02d821b7ea2 = L.popup({"maxWidth": 300});
+
+        
+            var html_b9b3cd8da7804b4594eb4fb78f665e2c = $(`<div id="html_b9b3cd8da7804b4594eb4fb78f665e2c" style="width: 100.0%; height: 100.0%;">Victoria, Australia.<br>Cases confirmed: 4.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_6c29305cb19144c58250f02d821b7ea2.setContent(html_b9b3cd8da7804b4594eb4fb78f665e2c);
+        
+
+        circle_a2296d5ceff64827a437277e7e4bfc97.bindPopup(popup_6c29305cb19144c58250f02d821b7ea2)
+        ;
+
+        
+    
+    
+            var circle_7173ca4b59934010b5c002bc6ef7e4c2 = L.circle(
+                [24.0002488, 53.999482900000004],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10497.85603183589, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_44f877fdccad4314b0cc3db39b00542d = L.popup({"maxWidth": 300});
+
+        
+            var html_e820d25aa245432bb10abf1bfa15fbea = $(`<div id="html_e820d25aa245432bb10abf1bfa15fbea" style="width: 100.0%; height: 100.0%;">United Arab Emirates.<br>Cases confirmed: 4<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_44f877fdccad4314b0cc3db39b00542d.setContent(html_e820d25aa245432bb10abf1bfa15fbea);
+        
+
+        circle_7173ca4b59934010b5c002bc6ef7e4c2.bindPopup(popup_44f877fdccad4314b0cc3db39b00542d)
+        ;
+
+        
+    
+    
+            var circle_8fdc81862fd44a0dac282151fa17773d = L.circle(
+                [-22.1646782, 144.58449030000003],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9091.410008841582, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_57d9b562c90943ea80ed864c3b779f58 = L.popup({"maxWidth": 300});
+
+        
+            var html_96251c4a7bc941c6ac42806ffc6dc9b8 = $(`<div id="html_96251c4a7bc941c6ac42806ffc6dc9b8" style="width: 100.0%; height: 100.0%;">Queensland, Australia.<br>Cases confirmed: 3.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_57d9b562c90943ea80ed864c3b779f58.setContent(html_96251c4a7bc941c6ac42806ffc6dc9b8);
+        
+
+        circle_8fdc81862fd44a0dac282151fa17773d.bindPopup(popup_57d9b562c90943ea80ed864c3b779f58)
+        ;
+
+        
+    
+    
+            var circle_929f5747b12c49ee987d2fa439160404 = L.circle(
+                [50.000678, -86.000977],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9091.410008841582, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_92ec2c77ba744b4195fdb8adda44345a = L.popup({"maxWidth": 300});
+
+        
+            var html_5757494c594d4937a5fed462e1d031cb = $(`<div id="html_5757494c594d4937a5fed462e1d031cb" style="width: 100.0%; height: 100.0%;">Ontario, Canada.<br>Cases confirmed: 3.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_92ec2c77ba744b4195fdb8adda44345a.setContent(html_5757494c594d4937a5fed462e1d031cb);
+        
+
+        circle_929f5747b12c49ee987d2fa439160404.bindPopup(popup_92ec2c77ba744b4195fdb8adda44345a)
+        ;
+
+        
+    
+    
+            var circle_d55ed8e725d54fcea549f2cc5404b72a = L.circle(
+                [42.6384261, 12.674297],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7423.105188031259, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_5957319bd8894cf597ece35a6721fafb = L.popup({"maxWidth": 300});
+
+        
+            var html_12b76b9b26bd47d1958188d653a0d2a6 = $(`<div id="html_12b76b9b26bd47d1958188d653a0d2a6" style="width: 100.0%; height: 100.0%;">Italy.<br>Cases confirmed: 2<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_5957319bd8894cf597ece35a6721fafb.setContent(html_12b76b9b26bd47d1958188d653a0d2a6);
+        
+
+        circle_d55ed8e725d54fcea549f2cc5404b72a.bindPopup(popup_5957319bd8894cf597ece35a6721fafb)
+        ;
+
+        
+    
+    
+            var circle_555cae62af1a4b0182c6f561ae7a781f = L.circle(
+                [12.750348599999999, 122.7312101],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7423.105188031259, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_94faec13bb5e49eb98d1d17e76db5d4e = L.popup({"maxWidth": 300});
+
+        
+            var html_499cd863e0a242f79eb1875e64d8d531 = $(`<div id="html_499cd863e0a242f79eb1875e64d8d531" style="width: 100.0%; height: 100.0%;">Philippines.<br>Cases confirmed: 2<br>Deaths: 1<br>Recovered: 0</div>`)[0];
+            popup_94faec13bb5e49eb98d1d17e76db5d4e.setContent(html_499cd863e0a242f79eb1875e64d8d531);
+        
+
+        circle_555cae62af1a4b0182c6f561ae7a781f.bindPopup(popup_94faec13bb5e49eb98d1d17e76db5d4e)
+        ;
+
+        
+    
+    
+            var circle_6d42023d050d4567817ed629eb6bec9b = L.circle(
+                [64.6863136, 97.7453061],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7423.105188031259, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_4d459e2e37a84f1e83f3ee5d76a7e18d = L.popup({"maxWidth": 300});
+
+        
+            var html_ca08b2a084ba4ab3a4845621a0cdc559 = $(`<div id="html_ca08b2a084ba4ab3a4845621a0cdc559" style="width: 100.0%; height: 100.0%;">Russia.<br>Cases confirmed: 2<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_4d459e2e37a84f1e83f3ee5d76a7e18d.setContent(html_ca08b2a084ba4ab3a4845621a0cdc559);
+        
+
+        circle_6d42023d050d4567817ed629eb6bec9b.bindPopup(popup_4d459e2e37a84f1e83f3ee5d76a7e18d)
+        ;
+
+        
+    
+    
+            var circle_b820be9158314aca89735d0df8efe66b = L.circle(
+                [54.702354500000006, -3.2765752999999997],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7423.105188031259, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_df9276e8fc484665b4246a276ca15497 = L.popup({"maxWidth": 300});
+
+        
+            var html_ece0c8cc172b4e09bfcd362e9b9b7e20 = $(`<div id="html_ece0c8cc172b4e09bfcd362e9b9b7e20" style="width: 100.0%; height: 100.0%;">UK.<br>Cases confirmed: 2<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_df9276e8fc484665b4246a276ca15497.setContent(html_ece0c8cc172b4e09bfcd362e9b9b7e20);
+        
+
+        circle_b820be9158314aca89735d0df8efe66b.bindPopup(popup_df9276e8fc484665b4246a276ca15497)
+        ;
+
+        
+    
+    
+            var circle_efd5970c21bf4e168a6faa12ffaf0b20 = L.circle(
+                [41.875561600000005, -87.6244212],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7423.105188031259, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_77fa78fa26454e10b076c45c4cfdce27 = L.popup({"maxWidth": 300});
+
+        
+            var html_e75cb89d5e62414098e6dc23fc6b86c2 = $(`<div id="html_e75cb89d5e62414098e6dc23fc6b86c2" style="width: 100.0%; height: 100.0%;">Chicago, IL, US.<br>Cases confirmed: 2.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_77fa78fa26454e10b076c45c4cfdce27.setContent(html_e75cb89d5e62414098e6dc23fc6b86c2);
+        
+
+        circle_efd5970c21bf4e168a6faa12ffaf0b20.bindPopup(popup_77fa78fa26454e10b076c45c4cfdce27)
+        ;
+
+        
+    
+    
+            var circle_dbbf59ad5f8848ebbf953602851737d0 = L.circle(
+                [-30.534366499999997, 135.6301212],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_d8a3ab5342bf43419cb455825341db79 = L.popup({"maxWidth": 300});
+
+        
+            var html_8244cf92444143d0910a61b71bcb8f43 = $(`<div id="html_8244cf92444143d0910a61b71bcb8f43" style="width: 100.0%; height: 100.0%;">South Australia, Australia.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_d8a3ab5342bf43419cb455825341db79.setContent(html_8244cf92444143d0910a61b71bcb8f43);
+        
+
+        circle_dbbf59ad5f8848ebbf953602851737d0.bindPopup(popup_d8a3ab5342bf43419cb455825341db79)
+        ;
+
+        
+    
+    
+            var circle_25d7d3b71e68449094313d5f54b9c67e = L.circle(
+                [13.5066394, 104.869423],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_0249925fb1104c58837f55bbdea7c4a0 = L.popup({"maxWidth": 300});
+
+        
+            var html_0a25c98333b34c009ba77bec67a8a6cd = $(`<div id="html_0a25c98333b34c009ba77bec67a8a6cd" style="width: 100.0%; height: 100.0%;">Cambodia.<br>Cases confirmed: 1<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_0249925fb1104c58837f55bbdea7c4a0.setContent(html_0a25c98333b34c009ba77bec67a8a6cd);
+        
+
+        circle_25d7d3b71e68449094313d5f54b9c67e.bindPopup(popup_0249925fb1104c58837f55bbdea7c4a0)
+        ;
+
+        
+    
+    
+            var circle_97254873268c4f07b8c8899daff4cdf7 = L.circle(
+                [55.001251, -125.00244099999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_0e530e64d2b14bfd98e2ea93a89632eb = L.popup({"maxWidth": 300});
+
+        
+            var html_becd4971b7434e8fbb61f3d1ed064e34 = $(`<div id="html_becd4971b7434e8fbb61f3d1ed064e34" style="width: 100.0%; height: 100.0%;">British Columbia, Canada.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_0e530e64d2b14bfd98e2ea93a89632eb.setContent(html_becd4971b7434e8fbb61f3d1ed064e34);
+        
+
+        circle_97254873268c4f07b8c8899daff4cdf7.bindPopup(popup_0e530e64d2b14bfd98e2ea93a89632eb)
+        ;
+
+        
+    
+    
+            var circle_37558b7a31964075a19201f9229fcc59 = L.circle(
+                [63.2467777, 25.9209164],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_10476c23139143e0996d15206ec61cd6 = L.popup({"maxWidth": 300});
+
+        
+            var html_56aaefcc877f41d7a18ea189151f622a = $(`<div id="html_56aaefcc877f41d7a18ea189151f622a" style="width: 100.0%; height: 100.0%;">Finland.<br>Cases confirmed: 1<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_10476c23139143e0996d15206ec61cd6.setContent(html_56aaefcc877f41d7a18ea189151f622a);
+        
+
+        circle_37558b7a31964075a19201f9229fcc59.bindPopup(popup_10476c23139143e0996d15206ec61cd6)
+        ;
+
+        
+    
+    
+            var circle_c09190218b2b4f76b8a02c2adf7787cc = L.circle(
+                [22.3511148, 78.6677428],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_1c02e84b0bf447fd99385c455c8b3fd8 = L.popup({"maxWidth": 300});
+
+        
+            var html_9fb9bbff227f4445b98a30b3bd594c87 = $(`<div id="html_9fb9bbff227f4445b98a30b3bd594c87" style="width: 100.0%; height: 100.0%;">India.<br>Cases confirmed: 1<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_1c02e84b0bf447fd99385c455c8b3fd8.setContent(html_9fb9bbff227f4445b98a30b3bd594c87);
+        
+
+        circle_c09190218b2b4f76b8a02c2adf7787cc.bindPopup(popup_1c02e84b0bf447fd99385c455c8b3fd8)
+        ;
+
+        
+    
+    
+            var circle_b2098b74348d4203b68c189a7c9757f2 = L.circle(
+                [31.894343199999998, 87.07813709999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_285f33f4810f42c99a2ef33ac8477ce6 = L.popup({"maxWidth": 300});
+
+        
+            var html_e2940ac0b648410db18d77d0b22021bc = $(`<div id="html_e2940ac0b648410db18d77d0b22021bc" style="width: 100.0%; height: 100.0%;">Tibet, Mainland China.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_285f33f4810f42c99a2ef33ac8477ce6.setContent(html_e2940ac0b648410db18d77d0b22021bc);
+        
+
+        circle_b2098b74348d4203b68c189a7c9757f2.bindPopup(popup_285f33f4810f42c99a2ef33ac8477ce6)
+        ;
+
+        
+    
+    
+            var circle_37bcce22678b4e7d865fedae164827f8 = L.circle(
+                [28.108392900000002, 84.0917139],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_4b1a3b712cc645c2a3c36251a6df569f = L.popup({"maxWidth": 300});
+
+        
+            var html_931c60564761441bbe1662c7352ac7fe = $(`<div id="html_931c60564761441bbe1662c7352ac7fe" style="width: 100.0%; height: 100.0%;">Nepal.<br>Cases confirmed: 1<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_4b1a3b712cc645c2a3c36251a6df569f.setContent(html_931c60564761441bbe1662c7352ac7fe);
+        
+
+        circle_37bcce22678b4e7d865fedae164827f8.bindPopup(popup_4b1a3b712cc645c2a3c36251a6df569f)
+        ;
+
+        
+    
+    
+            var circle_c8d7bb4dd39649b38eae5e810494d683 = L.circle(
+                [39.3262345, -4.838064900000001],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_99f734df82d7439e98e9e81300e9e431 = L.popup({"maxWidth": 300});
+
+        
+            var html_85bcb13b47ca47a5a26dc8ed09396a98 = $(`<div id="html_85bcb13b47ca47a5a26dc8ed09396a98" style="width: 100.0%; height: 100.0%;">Spain.<br>Cases confirmed: 1<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_99f734df82d7439e98e9e81300e9e431.setContent(html_85bcb13b47ca47a5a26dc8ed09396a98);
+        
+
+        circle_c8d7bb4dd39649b38eae5e810494d683.bindPopup(popup_99f734df82d7439e98e9e81300e9e431)
+        ;
+
+        
+    
+    
+            var circle_f938dc5ae6444c5f99d12cbf2a38795f = L.circle(
+                [7.555494199999999, 80.7137847],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_9eac3723dbc24b2d893b1fe76ef74bbd = L.popup({"maxWidth": 300});
+
+        
+            var html_4e6f8a65c7ad4444bfad2fc8cc2a3a82 = $(`<div id="html_4e6f8a65c7ad4444bfad2fc8cc2a3a82" style="width: 100.0%; height: 100.0%;">Sri Lanka.<br>Cases confirmed: 1<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_9eac3723dbc24b2d893b1fe76ef74bbd.setContent(html_4e6f8a65c7ad4444bfad2fc8cc2a3a82);
+        
+
+        circle_f938dc5ae6444c5f99d12cbf2a38795f.bindPopup(popup_9eac3723dbc24b2d893b1fe76ef74bbd)
+        ;
+
+        
+    
+    
+            var circle_dd9716fac1794fd698cf10ecfda552ee = L.circle(
+                [59.67497120000001, 14.5208584],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_aa1a605c7bca43c7ae3aaaf5c94a67ae = L.popup({"maxWidth": 300});
+
+        
+            var html_f9d88dba723e451fa1453d1ca6b23a0a = $(`<div id="html_f9d88dba723e451fa1453d1ca6b23a0a" style="width: 100.0%; height: 100.0%;">Sweden.<br>Cases confirmed: 1<br>Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_aa1a605c7bca43c7ae3aaaf5c94a67ae.setContent(html_f9d88dba723e451fa1453d1ca6b23a0a);
+        
+
+        circle_dd9716fac1794fd698cf10ecfda552ee.bindPopup(popup_aa1a605c7bca43c7ae3aaaf5c94a67ae)
+        ;
+
+        
+    
+    
+            var circle_127530a7a6c04512a8315c87d1993405 = L.circle(
+                [42.3602534, -71.0582912],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_bef786e7c9884bcf8200815ad10b0164 = L.popup({"maxWidth": 300});
+
+        
+            var html_a6c2e1a74f744571af1c898f1cd3bc38 = $(`<div id="html_a6c2e1a74f744571af1c898f1cd3bc38" style="width: 100.0%; height: 100.0%;">Boston, MA, US.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_bef786e7c9884bcf8200815ad10b0164.setContent(html_a6c2e1a74f744571af1c898f1cd3bc38);
+        
+
+        circle_127530a7a6c04512a8315c87d1993405.bindPopup(popup_bef786e7c9884bcf8200815ad10b0164)
+        ;
+
+        
+    
+    
+            var circle_183ae94c33d64323abc51d99fd93c071 = L.circle(
+                [34.0536909, -118.2427666],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_958c321312cf4b7f8292e14e51f27c88 = L.popup({"maxWidth": 300});
+
+        
+            var html_9ab803cd1da5450bbd4d9f83f644fdfd = $(`<div id="html_9ab803cd1da5450bbd4d9f83f644fdfd" style="width: 100.0%; height: 100.0%;">Los Angeles, CA, US.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_958c321312cf4b7f8292e14e51f27c88.setContent(html_9ab803cd1da5450bbd4d9f83f644fdfd);
+        
+
+        circle_183ae94c33d64323abc51d99fd93c071.bindPopup(popup_958c321312cf4b7f8292e14e51f27c88)
+        ;
+
+        
+    
+    
+            var circle_4ec35c65277c4ed0b19c6afdabd9d241 = L.circle(
+                [33.750037799999994, -117.87049309999999],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_df8b3e9d025a4441acf40ea32f99a478 = L.popup({"maxWidth": 300});
+
+        
+            var html_8e92b7c2518142dca7206692b84f12f6 = $(`<div id="html_8e92b7c2518142dca7206692b84f12f6" style="width: 100.0%; height: 100.0%;">Orange, CA, US.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_df8b3e9d025a4441acf40ea32f99a478.setContent(html_8e92b7c2518142dca7206692b84f12f6);
+        
+
+        circle_4ec35c65277c4ed0b19c6afdabd9d241.bindPopup(popup_df8b3e9d025a4441acf40ea32f99a478)
+        ;
+
+        
+    
+    
+            var circle_dbb2f97cbd274ac5b05ed9b22706b620 = L.circle(
+                [37.2333253, -121.68463490000002],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_ec7336406ff248a1a95c8253e17d652b = L.popup({"maxWidth": 300});
+
+        
+            var html_b716b823e5f045c89a32e1a5e353e036 = $(`<div id="html_b716b823e5f045c89a32e1a5e353e036" style="width: 100.0%; height: 100.0%;">Santa Clara, CA, US.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_ec7336406ff248a1a95c8253e17d652b.setContent(html_b716b823e5f045c89a32e1a5e353e036);
+        
+
+        circle_dbb2f97cbd274ac5b05ed9b22706b620.bindPopup(popup_ec7336406ff248a1a95c8253e17d652b)
+        ;
+
+        
+    
+    
+            var circle_a016ef4e03244b7f96a0a09712fd220a = L.circle(
+                [47.6038321, -122.3300624],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_02ec8a8263e848eabfce1da9ebfd4200 = L.popup({"maxWidth": 300});
+
+        
+            var html_c5af3454f314417ca618e553121808fd = $(`<div id="html_c5af3454f314417ca618e553121808fd" style="width: 100.0%; height: 100.0%;">Seattle, WA, US.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_02ec8a8263e848eabfce1da9ebfd4200.setContent(html_c5af3454f314417ca618e553121808fd);
+        
+
+        circle_a016ef4e03244b7f96a0a09712fd220a.bindPopup(popup_02ec8a8263e848eabfce1da9ebfd4200)
+        ;
+
+        
+    
+    
+            var circle_6edc9800d10d426aa40e4de7aad52e37 = L.circle(
+                [33.4255056, -111.9400125],
+                {"bubblingMouseEvents": true, "color": "#f1a340", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1a340", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5248.928015917945, "stroke": true, "weight": 3}
+            ).addTo(map_a036ae58ae0f49abafbc36a2dde6cbb5);
+        
+    
+        var popup_8c982d1972834bb8a8714edc2b402605 = L.popup({"maxWidth": 300});
+
+        
+            var html_df583ee8d94c430bb4b6ee66f409f1ae = $(`<div id="html_df583ee8d94c430bb4b6ee66f409f1ae" style="width: 100.0%; height: 100.0%;">Tempe, AZ, US.<br>Cases confirmed: 1.<br> Deaths: 0<br>Recovered: 0</div>`)[0];
+            popup_8c982d1972834bb8a8714edc2b402605.setContent(html_df583ee8d94c430bb4b6ee66f409f1ae);
+        
+
+        circle_6edc9800d10d426aa40e4de7aad52e37.bindPopup(popup_8c982d1972834bb8a8714edc2b402605)
+        ;
+
+        
+    
+</script>
